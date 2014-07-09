@@ -19,6 +19,13 @@
                         <ruleset>/rulesets/java/strings.xml</ruleset>
                     </rulesets>
                 </configuration>
+                <dependencies>
+                    <dependency>
+                        <groupId>net.sourceforge.pmd</groupId>
+                        <artifactId>pmd</artifactId>
+                        <version>5.1.1</version>
+                    </dependency>
+                </dependencies>
                 <executions>
                     <execution>
                         <goals>
